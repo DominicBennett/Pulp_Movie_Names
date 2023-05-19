@@ -18,7 +18,7 @@ const getRandomWord = array => {
     return array[Math.floor(Math.random()*array.length)]
     };
     
-let movieName = `${getRandomWord(adjective)} ${getRandomWord(creatures)} from ${getRandomWord(origins)}.`;
+let movieName = `${getRandomWord(wordLists.adjective)} ${getRandomWord(wordLists.creatures)} from ${getRandomWord(wordLists.origins)}.`;
 
 console.log(movieName.toUpperCase());
 
